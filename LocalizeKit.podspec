@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name              = "LocalizeKit"
-s.version           = "1.0.0"
+s.version           = "1.0.1"
 s.summary           = "Localize kit to work with multiple languages"
 s.homepage          = "https://github.com/jadernunes/LocalizeKit.git"
 s.author            = "Jáder Nunes - https://jadernunes.com"

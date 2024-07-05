@@ -9,4 +9,12 @@ final class LocalizeKitTests: XCTestCase {
         
         XCTAssertEqual(EnumString.test.localized(bundle: .module), "Test1")
     }
+    
+    func testValues() throws {
+        enum EnumString: String, LocalizableString {
+            case testValues = "test_values"
+        }
+        
+        XCTAssertEqual(EnumString.testValues.localized("1", bundle: .module), "1 Test2")
+    }
 }

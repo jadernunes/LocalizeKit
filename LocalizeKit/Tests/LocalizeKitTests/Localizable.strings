@@ -6,3 +6,4 @@
 //
 
 "test" = "Test1";
+"test_values" = "%@ Test2";
